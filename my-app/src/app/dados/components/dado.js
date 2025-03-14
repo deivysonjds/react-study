@@ -1,12 +1,12 @@
 export default function Dado({ valor }) {  
 
   const imagens = {  
-      1: '/lado1.jpeg',  
-      2: '/lado2.jpeg',  
-      3: '/lado3.jpeg',  
-      4: '/lado4.jpeg',  
-      5: '/lado5.jpeg',  
-      6: '/lado6.jpeg',  
+      1: '/dados/lado1.jpeg',  
+      2: '/dados/lado2.jpeg',  
+      3: '/dados/lado3.jpeg',  
+      4: '/dados/lado4.jpeg',  
+      5: '/dados/lado5.jpeg',  
+      6: '/dados/lado6.jpeg',  
   };  
 
   return (  
