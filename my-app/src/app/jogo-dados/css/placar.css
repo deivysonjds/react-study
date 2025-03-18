@@ -1,0 +1,17 @@
+.container-placar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.line-placar {
+    display: flex;
+    flex-direction: row;
+}
+
+.line-placar div {
+    padding: 10px;
+    width: 70px;
+}
