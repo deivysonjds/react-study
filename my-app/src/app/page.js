@@ -10,7 +10,10 @@ export default function Home(){
                     <p> Criar site que gere dados aleatórios</p>
                     <a href="/dados">ver atividade</a>
                 </li>
-             
+                <li>
+                    <p> Jogo de dados</p>
+                    <a href="/jogo-dados">ver atividade</a>
+                </li>
             </ol>
         </div>  
     );
