@@ -1,0 +1,43 @@
+.square {
+    border: 1px solid black;
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #3498db; /* Cor da borda */
+    border-radius: 50%; /* Torna o div circular */
+    background-color: transparent; /* Sem fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3498db; /* Cor do texto */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.x {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.linha {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: #000;
+}
+
+.linha1 {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.linha2 {
+    transform: rotate(-45deg);
+    top: 0;
+}
